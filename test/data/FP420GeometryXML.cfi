@@ -4,8 +4,8 @@ es_source = XMLIdealGeometryESSource {
                 "Geometry/FP420CommonData/data/zzzrectangle.xml",
 		"Geometry/FP420CommonData/data/materialsfp420.xml",
 		"Geometry/FP420CommonData/data/FP420Rot.xml",
- 		"Geometry/FP420SimData/data/fp420sens.xml",
- 		"Geometry/FP420SimData/data/FP420ProdCuts.xml"
+		"SimG4CMS/FP420/test/data/CaloUtil.xml",
+ 		"Geometry/FP420SimData/data/fp420sens.xml"
 	}
 	string rootNodeName = "fp420:OFP420"
 }
@@ -13,6 +13,9 @@ es_source = XMLIdealGeometryESSource {
 
 
 
+#		"Geometry/CMSCommonData/data/mgnt.xml",
+#		"SimG4CMS/FP420/test/data/CaloUtil.xml",
+#
 #               "SimG4CMS/Forward/test/data/CaloUtil.xml",
 #		"Geometry/FP420SimData/data/FP420ProdCuts.xml"
 #                "Geometry/FP420CommonData/data/zzzrectangle.xml",
