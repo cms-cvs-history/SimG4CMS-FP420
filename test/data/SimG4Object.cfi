@@ -36,10 +36,10 @@
       }
       PSet Generator =
       {
-         string HepMCProductLabel = "VtxSmeared"  # alternative would be : 
-	                                          # InputTag MCProductLabel = source
-	                                          # to get the "original" on (without vtx smearing);
-					          # NO other MCProduct's/labels in edm::Event
+         string HepMCProductLabel = "source"  # alternative would be : 
+	                                      # InputTag MCProductLabel = source
+	                                      # to get the "original" on (without vtx smearing);
+					      # NO other MCProduct's/labels in edm::Event
          bool ApplyPtCuts  = true
          bool ApplyEtaCuts = true
          bool ApplyPhiCuts = false
@@ -49,7 +49,7 @@
          double MaxEtaCut  =  5.5
          double MinPtCut   =  0.040  # the pt-cut is in GeV (CMS conventions)
          double MaxPtCut   =  99999. # the ptmax=99.TeV in this case
-         untracked double DecLenCut   =  10. # the minimum decay length in cm (!) for mother tracking
+         double DecLenCut   =  10. # the minimum decay length in cm (!) for mother tracking
          untracked int32 Verbosity = 0
       }
 
