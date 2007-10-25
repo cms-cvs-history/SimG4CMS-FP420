@@ -7,7 +7,7 @@ es_source = XMLIdealGeometryESSource {
 		"SimG4CMS/FP420/test/data/CaloUtil.xml",
  		"Geometry/FP420SimData/data/fp420sens.xml"
 	}
-	string rootNodeName = "fp420:OFP420"
+	string rootNodeName = "fp420:OCMS"
 }
 
 
